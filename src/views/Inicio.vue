@@ -13,7 +13,7 @@
                 <div class="col-md-3 col-12">
                     <div class="datosPersonales">
                         <h2><strong>Desarrollador Web</strong></h2>
-                        <p>Mi informacion personal</p>
+                        <p>MI INFORMACION PERSONAL</p>
                         <ul>
                             <li><i class="bi bi-chevron-compact-right"></i><strong>Fecha de Nacimiento:</strong> <span> 08/09/1998</span> </li>
                              <li><i class="bi bi-chevron-compact-right"></i><strong>Ciudad:</strong> <span> Piribebuy</span> </li>
@@ -21,6 +21,15 @@
                             <li><i class="bi bi-chevron-compact-right"></i><strong>Profesion:</strong> <span> Estudiante</span> </li>
                             <li><i class="bi bi-chevron-compact-right"></i><strong>Email:</strong> <span> denisjoelbenitez@gmail.com</span> </li>
                         </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12 redes">
+                        <p>REDES SOCIALES</p>
+                    <div class="d-flex justify-content-center">
+                        <!-- <img src="@/assets/face.png" class="imgredes" /> -->
+                        <router-link class="active" to="/"><img src="@/assets/face.png" class="imgredes"/></router-link>
+                        <router-link class="active" to="/"><img src="@/assets/instagram-logo.png" class="imgredes"/></router-link>
+                        <router-link class="active" to="/"><img src="@/assets/whatsapp-icon.png" class="imgredes"/></router-link>
                     </div>
                 </div>
             </div><br>
@@ -129,6 +138,20 @@
         margin-left: 5%;
         width: 370px;
         height: 250px;
+    }
+    .redes p{
+        font-family: "Poppins" sans-serif;
+        font-weight: 500;
+        margin-top: 18%;
+        text-align: center;
+        color: #aaaa;
+       
+    }
+    .imgredes{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        border-radius: 10px;
     }
     .datosPersonales{
         margin-top: 2%;
